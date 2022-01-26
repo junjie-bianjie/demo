@@ -1,21 +1,15 @@
 package com.example.demo.config;
 
+import io.grpc.netty.shaded.io.netty.handler.ssl.SslProvider;
 import irita.sdk.client.IritaClient;
 import irita.sdk.config.ClientConfig;
 import irita.sdk.config.OpbConfig;
-import irita.sdk.constant.ContractAddress;
 import irita.sdk.key.Sm2KeyManager;
-import irita.sdk.module.community_gov.CommunityGovClient;
-import irita.sdk.module.wasm.WasmClient;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
-import org.springframework.core.io.ClassPathResource;
 import org.springframework.util.StringUtils;
-
-import java.io.FileInputStream;
-import java.io.InputStream;
 
 @Configuration
 @Data

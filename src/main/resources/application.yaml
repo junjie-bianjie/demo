@@ -2,10 +2,10 @@ irita:
   sdk:
     caKeystore: ca.JKS
     password: 123456
-    opbUri: https://opbningxia.bsngate.com:18602
+    opbUri: https://opbningxia.bsngate.com:18602/api/zzz/ddsad
     grpcAddr: https://opbningxia.bsngate.com:18603
     chainId: wenchangchain
     projectId: 7b3c53beda5c48c6b07d98804e156389
-    #    projectKey: 514212146cf44df89e414da9716ec000
+#    projectKey: 514212146cf44df89e414da9716ec000
     contractAddr: iaa1cr8ard7tpvzf3g8n5llegc0fd92uuxeeuzt4s6
     mnemonic: opera vivid pride shallow brick crew found resist decade neck expect apple chalk belt sick author know try tank detail tree impact hand best
